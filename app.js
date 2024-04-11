@@ -8,12 +8,12 @@ buttons.forEach(function (btn)
 
     btn.addEventListener('click', function (e)
      {
-        const styles = e.currentTarget.classList;
-        if (styles.contains("decrease"))
+        const Target = e.currentTarget.classList;
+        if (Target.contains("decrease"))
         {
             count--;
         }
-        else if (styles.contains('increase'))
+        else if (Target.contains('increase'))
         {
             count++;
         }
