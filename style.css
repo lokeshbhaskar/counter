@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 100px;
+}
+.container{
+    margin-left: 500px;
+}
+span{
+    font-weight: 600;
+    font-size: 50px;
+}
+.container span{
+    margin-left: 50px;
+}
+.button-container{
+    margin-left: 430px;
+}
+button{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius:10px;
+}
+button:hover{
+    background-color: cadetblue;
+}
